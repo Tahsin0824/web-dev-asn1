@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  background-image:url('../Assets/Hero-bg.png');
+}
+
+
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2px;
+}
+.logo{
+  font-size: 24px;
+  font-weight: bold;
+  color: blue;
+  text-align: left;
+}
+.signup-btn{
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: right;
+}
+.banner-content{
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.banner-content h1{}
+.focus-btn {
+  background-color: blue;
+  color: white;
+  border-radius: 6px;
+}
+.action-section{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2px;
+}
+.action-image{
+  border-radius: 5px;
+}
+.productive-user{}
+.productive-rate{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2px;
+}
